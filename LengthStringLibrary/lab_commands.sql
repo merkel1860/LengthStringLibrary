@@ -1,6 +1,6 @@
 use TestDB;
 CREATE ASSEMBLY lengthStringlib
-    FROM '/home/schatz/RiderProjects/LengthStringLibrary/LengthStringLibrary/bin/Debug/LengthStringLibrary.dll'
+    FROM '[your path]/LengthStringLibrary.dll'
     WITH PERMISSION_SET = SAFE;
 
 drop function dbo.getStringLen;
